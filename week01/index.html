@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="WDD 131 Home Page for Armando Rebaza: weekly learning activities, assignments, and course project in web frontend development.">
+  <meta name="author" content="Armando Rebaza">
+  <title>Armando Rebaza | WDD 131 Home Page</title>
+
+  <link rel="stylesheet" href="styles/base.css">
+  <script defer src="scripts/getdates.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="brand">
+      <p class="brand-title">Armando Rebaza</p>
+      <p class="brand-subtitle">WDD 131: Web Frontend Development I</p>
+    </div>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="basic-layout.html">Week 01</a>
+      <a href="#">Week 02</a>
+      <a href="#">Week 03</a>
+      <a href="#">Week 04</a>
+      <a href="#">Week 05</a>
+      <a href="#">Project</a>
+    </nav>
+  </header>
+
+  <main id="main" class="layout">
+    <section class="card">
+      <h1>Armando Rebaza | WDD 131 Home Page</h1>
+
+      <h2>About Me</h2>
+      <p>
+        My name is <strong>Armando Rebaza</strong>, and I was born and raised in Arequipa, Peru, a city known for its strong traditions and community values.
+        I am married to my wife, Jessica, who has been my constant support and partner throughout our life together.
+        We have been blessed with three wonderful children, who are an important part of everything we do as a family.
+        Our families embraced education, faith, and service, which shaped the way we raise our children today.
+        We enjoy spending time together, traveling, learning, and supporting one another’s goals.
+        My family continues to inspire me to grow personally, professionally, and spiritually.
+      </p>
+
+      <div class="profile">
+        <!-- If you rename the file to lowercase, update the src accordingly -->
+        <img src="images/armandor.jpg" alt="Portrait photo of Armando Rebaza" width="300" height="400" loading="lazy">
+
+        <div class="profile-text">
+          <h2>About Peru</h2>
+          <p>
+            Peru is a country located on the west coast of South America with a rich cultural heritage.
+            It is known for its diverse geography, including the coast, mountains, and jungle.
+            Peru has a long history influenced by ancient civilizations such as the Incas.
+            The capital city is Lima, while Cusco is one of the most visited tourist destinations.
+            Peruvian cuisine is recognized worldwide for its variety and unique flavors.
+            The country is home to famous landmarks like Machu Picchu and Lake Titicaca.
+            Peru has many traditional dances, music styles, and colorful clothing.
+            Its people are known for their warmth, resilience, and strong sense of community.
+          </p>
+
+          <p class="note">
+            Tip: Use the navigation bar above to access each week’s work as you complete it.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <aside class="card">
+      <h2>Course Links</h2>
+      <ul class="link-list">
+        <li><a href="https://byui-cse.github.io/wdd131-ww-course/" target="_blank" rel="noopener noreferrer">Course Materials</a></li>
+        <li><a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">HTML Validator</a></li>
+        <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener noreferrer">CSS Validator</a></li>
+      </ul>
+
+      <h2>Weekly Goals</h2>
+      <ul class="checklist">
+        <li>Follow naming conventions</li>
+        <li>Validate HTML and CSS</li>
+        <li>Check Lighthouse (Accessibility, Best Practices, SEO)</li>
+        <li>Commit and push changes to GitHub</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="currentyear"></span> Armando Rebaza | WDD 131</p>
+    <p>Last Modified: <span id="lastmodified"></span></p>
+  </footer>
+</body>
+</html>
