@@ -7,7 +7,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* Universal fonts (no vendor extensions) */
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   line-height: 1.6;
   background-color: #0b1220;
   color: #f5f7fb;
