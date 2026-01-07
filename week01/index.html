@@ -17,17 +17,18 @@
   <header class="site-header">
     <div class="brand">
       <p class="brand-title">Armando Rebaza</p>
-      <p class="brand-subtitle">WDD 131: Web Frontend Development</p>
+      <p class="brand-subtitle">WDD 131: Web Frontend Development I</p>
     </div>
 
     <nav class="site-nav" aria-label="Primary navigation">
       <a href="index.html" aria-current="page">Home</a>
-      <a href="basic-layout.html">Week 01</a>
-      <a href="#">Week 02</a>
-      <a href="#">Week 03</a>
-      <a href="#">Week 04</a>
-      <a href="#">Week 05</a>
-      <a href="#">Project</a>
+      <a href="week01/basic-layout.html">Week 01</a>
+      <!-- Leave Week 02+ as plain text until pages exist (avoids broken links) -->
+      <span class="nav-disabled" aria-disabled="true">Week 02</span>
+      <span class="nav-disabled" aria-disabled="true">Week 03</span>
+      <span class="nav-disabled" aria-disabled="true">Week 04</span>
+      <span class="nav-disabled" aria-disabled="true">Week 05</span>
+      <span class="nav-disabled" aria-disabled="true">Project</span>
     </nav>
   </header>
 
@@ -46,8 +47,10 @@
       </p>
 
       <div class="profile">
-        <!-- If you rename the file to lowercase, update the src accordingly -->
-        <img src="images/armandor.jpg" alt="Portrait photo of Armando Rebaza" width="300" height="400" loading="lazy">
+        <figure class="profile-figure">
+          <img src="images/armandor.jpg" alt="Portrait photo of Armando Rebaza" width="300" height="400" loading="lazy">
+          <figcaption class="sr-only">Armando Rebaza profile photo</figcaption>
+        </figure>
 
         <div class="profile-text">
           <h2>About Peru</h2>
@@ -69,7 +72,7 @@
       </div>
     </section>
 
-    <aside class="card">
+    <aside class="card" aria-label="Course resources and goals">
       <h2>Course Links</h2>
       <ul class="link-list">
         <li><a href="https://byui-cse.github.io/wdd131-ww-course/" target="_blank" rel="noopener noreferrer">Course Materials</a></li>
